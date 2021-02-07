@@ -1,0 +1,29 @@
+package com.rupine.profile.model;
+
+public class Profile {
+
+	private String firstName;
+	private String lastName;
+	
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	
+	public Profile(String fname, String lname) {
+		// TODO Auto-generated constructor stub
+		firstName=fname;
+		lastName=lname;
+	}
+	
+}
